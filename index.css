@@ -1,0 +1,349 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  height: 84px;
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li {
+  display: inline;
+  margin: 10px;
+  cursor: pointer;
+}
+.login-button,
+.signup-button {
+  height: 30px;
+  padding: 8px;
+}
+.login-button {
+  color: #4caf4f;
+  background-color: #f5f7fa;
+  border: none;
+}
+.signup-button,
+.hero .register-button,
+.learn-more {
+  background-color: #4caf4f;
+  color: #f5f7fa;
+  border: none;
+  border-radius: 6px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 599px;
+  padding: 96px;
+  background-color: #f5f7fa;
+}
+.dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #f5f7fa;
+}
+.dot div {
+  height: 10px;
+  width: 20px;
+  border: 1px solid #4caf4f;
+  border-radius: 50%;
+  position: relative;
+  top: 450px;
+}
+.hero-text {
+  width: 60%;
+  height: 40%;
+}
+.hero-text h1 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+}
+.hero-text span,
+.achievement-text span,
+.customer span {
+  color: #4caf4f;
+}
+.hero-text p {
+  line-height: 40px;
+  font-weight: 400;
+}
+.register-button {
+  padding: 10px;
+  width: 15%;
+  margin-top: 10px;
+}
+.our-client {
+  margin-top: 10px;
+  height: 199px;
+}
+.our-client-text {
+  max-height: 76px;
+  text-align: center;
+}
+.our-client-text h1,
+.community-text h1,
+.unlock-text h1,
+.calender-text h1,
+.achievement-text h1 {
+  font-size: 35px;
+  line-height: 44px;
+  font-weight: 600;
+}
+.our-client-image {
+  width: 80%;
+  margin: auto;
+  max-height: 98px;
+  display: flex;
+  justify-content: space-around;
+}
+.our-client-image img {
+  max-height: 40px;
+  max-width: 40px;
+  margin: auto;
+  margin-top: 30px;
+}
+.community {
+  height: 416px;
+}
+.community-text {
+  height: 30%;
+  text-align: center;
+}
+.community-part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  max-width: 80%;
+}
+.community-part div {
+  padding: 20px;
+  max-width: 299px;
+  min-height: 280px;
+  text-align: center;
+  margin: 20px 40px;
+  box-shadow: 20%;
+  box-shadow: 5px 5px 10px #6f7174;
+}
+.community-part h2 {
+  font-size: 28px;
+  font-weight: 700;
+  padding: 10px 0px;
+}
+.unlock,
+.calender,
+.customer {
+  max-height: 433px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 10px;
+}
+.unlock-image,
+.calender-image,
+.achievement-text,
+.customer-image {
+  max-width: 50%;
+  padding: 30px;
+}
+.unlock-text,
+.calender-text,
+.customer-text,
+.achievement-block {
+  max-width: 50%;
+  margin: 60px;
+}
+.unlock-image img,
+.calender-image img {
+  max-width: 442px;
+  height: 400px;
+}
+.unlock-text h1,
+.unlock-text p,
+.calender-text h1,
+.calender-text p,
+.customer-text p {
+  max-width: 490px;
+  min-height: 88px;
+  line-height: 44px;
+  margin: 13px;
+}
+.unlock-text p,
+.calender-text p,
+.achievement-block p,
+.customer p {
+  font-size: 13px;
+  line-height: 20px;
+}
+.learn-more {
+  width: 20%;
+  height: 10%;
+}
+.achievement {
+  height: 299px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f7fa;
+  margin: 20px;
+}
+.achievement-block {
+  width: 545px;
+}
+.block-first,
+.block-second {
+  display: flex;
+  max-height: 40px;
+  max-width: 540px;
+  margin: 30px;
+}
+.achievement-block img {
+  min-width: 48px;
+  min-height: 48px;
+}
+
+.member,
+.clubs,
+.event,
+.payment {
+  display: flex;
+  gap: 10px;
+}
+.customer {
+  background-color: #f5f7fa;
+}
+.customer span {
+  margin-left: 5px;
+}
+.customer-logo {
+  max-height: 78px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.customer-logo img {
+  max-height: 48px;
+  max-width: 48px;
+}
+.update {
+  min-height: 506px;
+}
+.update-text {
+  width: 50%;
+  height: 124px;
+  text-align: center;
+  margin: auto;
+}
+.text {
+  max-width: 230px;
+  min-height: 150px;
+  text-align: center;
+  background-color: #e9ecef;
+  backdrop-filter: blur(16px);
+  position: absolute;
+  top: 70%;
+  bottom: 0%;
+  padding: 20px;
+  margin-left: 3.5%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px #6f7174;
+}
+.text span {
+  color: #4caf4f;
+}
+.readmore {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text img,
+.text span {
+  max-height: 30px;
+  max-width: 30px;
+  padding-top: 15px;
+}
+.update-image {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  max-height: 336px;
+  padding: 0px 144px;
+  position: relative;
+}
+.update-image img {
+  max-width: 330px;
+  max-height: 280px;
+}
+footer {
+  min-height: 628px;
+  margin-top: 10px;
+}
+.footer-text {
+  text-align: center;
+  max-height: 300px;
+  padding-top: 30px;
+  margin: auto;
+  background-color: #f5f7fa;
+}
+.footer-text h1 {
+  font-size: 64px;
+  padding: 20px;
+}
+.learn-more {
+  width: 20%;
+  padding: 10px;
+}
+.footer-list {
+  max-height: 324px;
+  background-color: #263238;
+  color: #f5f7fa;
+  margin-top: 20px;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.footer-logo {
+  max-width: 350px;
+  max-height: 190px;
+  padding-top: 40px;
+}
+.icons img {
+  width: 19px;
+  height: 30px;
+  padding-top: 10px;
+}
+.footer-logo p {
+  padding-top: 10px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 328px;
+  max-width: 635px;
+  padding: 20px;
+}
+.company {
+  max-width: 160px;
+  max-height: 200px;
+  gap: 24px;
+  margin: 10px;
+}
+.footer-list p {
+  line-height: 2;
+}
