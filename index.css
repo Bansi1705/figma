@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 header {
-  height: 84px;
+  padding-top: 2%;
   background-color: #f5f7fa;
   display: flex;
   justify-content: space-around;
@@ -15,31 +15,45 @@ li {
   margin: 10px;
   cursor: pointer;
 }
-.login-button,
-.signup-button {
-  height: 30px;
-  padding: 8px;
-}
 .login-button {
   color: #4caf4f;
   background-color: #f5f7fa;
   border: none;
+  padding: 8px;
 }
-.signup-button,
-.hero .register-button,
-.learn-more {
+.green-button {
+  padding: 8px;
   background-color: #4caf4f;
   color: #f5f7fa;
   border: none;
   border-radius: 6px;
 }
 .hero {
+  background-color: #f5f7fa;
+  padding: 8%;
+}
+.hero,
+.unlock {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 599px;
-  padding: 96px;
-  background-color: #f5f7fa;
+  gap: 10%;
+  margin: auto;
+}
+.hero-text h1 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+}
+span {
+  color: #4caf4f;
+}
+.hero-text p,
+.unlock-text p {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 400;
+  padding: 5% 0%;
 }
 .dot {
   display: flex;
@@ -56,77 +70,35 @@ li {
   position: relative;
   top: 450px;
 }
-.hero-text {
-  width: 60%;
-  height: 40%;
-}
-.hero-text h1 {
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 600;
-}
-.hero-text span,
-.achievement-text span,
-.customer span {
-  color: #4caf4f;
-}
-.hero-text p {
-  line-height: 40px;
-  font-weight: 400;
-}
-.register-button {
-  padding: 10px;
-  width: 15%;
-  margin-top: 10px;
-}
-.our-client {
-  margin-top: 10px;
-  height: 199px;
-}
 .our-client-text {
-  max-height: 76px;
   text-align: center;
+  margin: auto;
 }
 .our-client-text h1,
-.community-text h1,
 .unlock-text h1,
-.calender-text h1,
 .achievement-text h1 {
   font-size: 35px;
   line-height: 44px;
   font-weight: 600;
+  padding: 2% 0%;
 }
 .our-client-image {
-  width: 80%;
   margin: auto;
-  max-height: 98px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .our-client-image img {
-  max-height: 40px;
-  max-width: 40px;
-  margin: auto;
-  margin-top: 30px;
-}
-.community {
-  height: 416px;
-}
-.community-text {
-  height: 30%;
-  text-align: center;
+  max-height: 5%;
+  max-width: 5%;
+  margin: 3% auto;
 }
 .community-part {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
   margin: auto;
-  max-width: 80%;
 }
 .community-part div {
   padding: 20px;
-  max-width: 299px;
-  min-height: 280px;
   text-align: center;
   margin: 20px 40px;
   box-shadow: 20%;
@@ -137,55 +109,9 @@ li {
   font-weight: 700;
   padding: 10px 0px;
 }
-.unlock,
-.calender,
-.customer {
-  max-height: 433px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  padding: 10px;
-}
-.unlock-image,
-.calender-image,
-.achievement-text,
-.customer-image {
-  max-width: 50%;
-  padding: 30px;
-}
-.unlock-text,
-.calender-text,
-.customer-text,
-.achievement-block {
-  max-width: 50%;
-  margin: 60px;
-}
-.unlock-image img,
-.calender-image img {
+.unlock-image img {
   max-width: 442px;
   height: 400px;
-}
-.unlock-text h1,
-.unlock-text p,
-.calender-text h1,
-.calender-text p,
-.customer-text p {
-  max-width: 490px;
-  min-height: 88px;
-  line-height: 44px;
-  margin: 13px;
-}
-.unlock-text p,
-.calender-text p,
-.achievement-block p,
-.customer p {
-  font-size: 13px;
-  line-height: 20px;
-}
-.learn-more {
-  width: 20%;
-  height: 10%;
 }
 .achievement {
   height: 299px;
@@ -233,15 +159,7 @@ li {
   max-height: 48px;
   max-width: 48px;
 }
-.update {
-  min-height: 506px;
-}
-.update-text {
-  width: 50%;
-  height: 124px;
-  text-align: center;
-  margin: auto;
-}
+
 .text {
   max-width: 230px;
   min-height: 150px;
@@ -296,10 +214,6 @@ footer {
 .footer-text h1 {
   font-size: 64px;
   padding: 20px;
-}
-.learn-more {
-  width: 20%;
-  padding: 10px;
 }
 .footer-list {
   max-height: 324px;
